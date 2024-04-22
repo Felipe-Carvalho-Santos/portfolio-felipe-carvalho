@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Fonte Roboto-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <!-- Animação borda -->
+    <link rel="stylesheet" href="border animation.css">
+    <!-- Icones redes -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'>
+    <!-- Outros icones -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Felipe Carvalho Portifólio</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo-header">
+            <img src="./img/logo_FC.png" alt="FC">
+        </div>
+        <ion-icon id="burguer" name="menu-outline" onclick="clickMenu()"></ion-icon>
+        <nav class="menu-header" id="itens">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="main-container" id="home">
+        <div class="icons-main">
+            <nav>
+                <ul id="icons-redes">
+                    <li><a href="https://www.linkedin.com/in/felipe-carvalho-3993b9173" title="Ir para Likedin"
+                            target="_blank"><i class="fi fi-brands-linkedin"></i></a></li>
+                    <li><a href="https://github.com/Felipe-Carvalho-Santos" title="Ir para Github" target="_blank"><i
+                                class="fi fi-brands-github"></i></a></li>
+                    <li><a href="https://wa.me/5519994116759" title="Enviar mensagem no Whatsapp" target="_blank"><i
+                                class="fi fi-brands-whatsapp"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="description-main">
+            <h1 id="main-title">Felipe</h1>
+            <p id="main-subtitle">Carvalho</p>
+            <p id="main-description">Apaixonado pela tecnologia decidi iniciar nessa carreira que oferece uma infinidade
+                de aprendizados e experiências.<br>
+                Estou aberto a oportunidades e conexões na área que possam contribuir para o meu desenvolvimento.
+                😉<br><br><br>
+
+                Ah, também sou fã de jogos, esportes e filmes 💜</p>
+        </div>
+        <div class="photo-main">
+            <div class="box"></div>
+        </div>
+    </main>
+    <!-- PROJECTS -->
+    <section class="projects-container" id="portifolio">
+        <div class="box-projects">
+            <div class="title-projects">
+                <h2>Meus projetos</h2>
+            </div>
+            <div class="projects">
+                <div class="project-rdy" id="project1">
+                    <p id="text-project">Projeto: AgenciaX<br><br>
+                        Um projeto apenas para estudos, colocando em prática os aprendizados
+                        obitidos.<br><br><br>Confira o projeto:</p>
+                    <div class="icons-projects">
+                        <nav>
+                            <ul id="icons-redes-projects">
+                                <li><a href="https://felipe-carvalho-santos.github.io/agenciaX/"
+                                        target="_blank"><ion-icon name="globe-outline"
+                                            title="Projeto Funcionando"></ion-icon></i></a></li>
+                                <li><a href="https://github.com/Felipe-Carvalho-Santos/agenciaX"
+                                        target="_blank"><ion-icon name="logo-github"
+                                            title="Código Fonte"></ion-icon></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="project-rdy" id="project2">
+                    <p id="text-project">Projeto: Portifólio<br><br>
+                        Meu primeiro portifólio, colocando em prática os aprendizados obitidos.<br><br><br>Confira o
+                        projeto:</p>
+                    <div class="icons-projects">
+                        <nav>
+                            <ul id="icons-redes-projects">
+                                <li><a href="https://felipe-carvalho-santos.github.io/portifolio-simplificado/"
+                                        target="_blank"><ion-icon name="globe-outline"
+                                            title="Projeto Funcionando"></ion-icon></i></a></li>
+                                <li><a href="https://github.com/Felipe-Carvalho-Santos/portifolio-simplificado"
+                                        target="_blank"><ion-icon name="logo-github"
+                                            title="Código Fonte"></ion-icon></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="project-rdy" id="project3">
+                    <p id="text-project">Projeto: Venda Fácil<br><br>
+                        Estudando formulários, colocando em prática os aprendizados obitidos.<br><br><br>Confira o
+                        projeto:</p>
+                    <div class="icons-projects">
+                        <nav>
+                            <ul id="icons-redes-projects">
+                                <li><a href="https://felipe-carvalho-santos.github.io/venda-facil/"
+                                        target="_blank"><ion-icon name="globe-outline"
+                                            title="Projeto Funcionando"></ion-icon></i></a></li>
+                                <li><a href="https://github.com/Felipe-Carvalho-Santos/venda-facil"
+                                        target="_blank"><ion-icon name="logo-github"
+                                            title="Código Fonte"></ion-icon></i></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Sobre mim -->
+    <section class="sobre-container" id="sobre">
+        <div class="box-sobre">
+            <div class="title-sobre">
+                <h2>Sobre mim</h2>
+                <p>Me chamo Felipe de Carvalho Santos. Tenho 32 anos, moro em Campinas, interior de SP!<br>
+                    Profissional em transição de carreira. Atualmente cursando faculdade de Análise e Desenvolvimento de
+                    Sistemas e cursos de especialização na área.<br>
+                    Ao longo de mais de dez anos atuei na área comercial, sendo assim, desenvolvi soft skills como:<br>
+                    comunicação, proatividade, habilidades analíticas, resolução de problemas, organização, gestão de
+                    tempo, além da responsabilidade pessoal.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Certificados -->
+    <section class="certificados-container" id="certificados">
+        <div class="box-certificados">
+            <div class="title-certificados">
+                <h2>Certificados</h2>
+            </div>
+            <div class="caixa">
+                <div id="cert1">
+                    <h2>Algoritmos e Lógica<br>de Programação</h2><br>
+                    <p>Instituição: <span id="text-yellow">Udemy</span><br>
+                        Duração: <span id="text-yellow">30 Horas</span><br>
+                        Instrutor: <span id="text-yellow">Nelio Alves</span><br>
+                        Ano de conclusão: <span id="text-yellow">2024</span><br>
+                        Certificado:
+                        <a href="https://www.udemy.com/certificate/UC-0e531ae3-a60e-4b76-8bc4-72455eedd461/"
+                            title="Certificado" target="_blank">
+                            <span id="text-yellow">Clique aqui</span>
+                    </p><br></a>
+                    <div class="icons-certificados">
+                        <i class="fi fi-brands-python" title="Python"></i>
+                        <i class="fi fi-brands-c" title="C, C+, C#"></i>
+                        <i class="fi fi-brands-js" title="Java Script"></i>
+                    </div>
+                </div>
+                <div id="cert2">
+                    <h2>HTML e<br>CSS</h2><br>
+                    <p>Instituição: <span id="text-yellow">Udemy</span><br>
+                        Duração: <span id="text-yellow">7.5 Horas</span><br>
+                        Instrutor: <span id="text-yellow">Matheus Battisti</span><br>
+                        Ano de conclusão: <span id="text-yellow">2024</span><br>
+                        Certificado:
+                        <a href="https://www.udemy.com/certificate/UC-97dede63-9893-4644-8bf2-6b6553ccc729/"
+                            title="Certificado" target="_blank">
+                            <span id="text-yellow">Clique aqui</span>
+                    </p><br></a>
+                    <div class="icons-certificados">
+                        <i class="fi fi-brands-html5" title="Html-5"></i>
+                        <i class="fi fi-brands-css3" title="Css-3"></i>
+                    </div>
+                </div>
+                <div id="cert3">
+                    <h2>The Git & Github<br>Bootcamp</h2><br>
+                    <p>Instituição: <span id="text-yellow">Udemy</span><br>
+                        Duração: <span id="text-yellow">17 Horas</span><br>
+                        Instrutor: <span id="text-yellow">Colt Steele</span><br>
+                        Ano de conclusão: <span id="text-yellow">2024</span><br>
+                        Certificado:
+                        <a href="https://www.udemy.com/certificate/UC-b4c94658-dd82-4c83-98dd-dfdb67326e98/"
+                            title="Certificado" target="_blank">
+                            <span id="text-yellow">Clique aqui</span>
+                    </p><br></a>
+                    <div class="icons-certificados">
+                        <i class="fi fi-brands-github" title="Github"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- Contato -->
+    <section class="contatos" id="contato">
+        <h2 id="title-contato">Contato</h2>
+        <div class="contato-container">
+            <div class="local-contact">
+                <ion-icon name="location-outline"></ion-icon><br><br>
+                <h2>Localização:</h2><br>
+                <p>Campinas - SP</p>
+            </div>
+            <div class="email-contact">
+                <ion-icon name="mail-outline"></ion-icon><br><br>
+                <h2>E-mail:</h2><br>
+                <p>felipeflpzin@hotmail.com</p>
+            </div>
+            <div class="phone-contact">
+                <ion-icon name="call-outline"></ion-icon><br><br>
+                <h2>Telefone:</h2><br>
+                <p>+55 19 9 9411-6759</p>
+            </div>
+        </div>
+        <!-- BTN WHATSAPP -->
+        <div class="btn-whatsapp">
+            <a href="https://wa.me/5519994116759" title="Enviar mensagem no Whatsapp" target="_blank"><i
+                    class="fi fi-brands-whatsapp"></i></a>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-box">
+            <div class="footer-info">
+                <h1>Felipe Carvalho</h1>
+                <p>Este é meu Portfólio oficial.<br>
+                    Todos os detalhes dos trabalhos desenvolvidos por mim estão aqui.</p>
+                <nav>
+                    <ul id="icons-footer">
+                        <li><a href="https://www.linkedin.com/in/felipe-carvalho-3993b9173" title="Ir para o Linkedin"
+                                target="_blank"><i class="fi fi-brands-linkedin"></i></a></li>
+                        <li><a href="https://wa.me/5519994116759" title="Enviar mensagem no Whatsapp" target="_blank"><i
+                                    class="fi fi-brands-whatsapp"></i></a></li>
+                        <li><a href="https://github.com/Felipe-Carvalho-Santos" title="Ir para o GitHub"
+                                target="_blank"><i class="fi fi-brands-github"></i></a></li>
+                        <li><a href="https://www.instagram.com/mirandinhafelipe" title="Ir para o Instagram"
+                                target="_blank"><i class="fi fi-brands-instagram"></i></a></li>
+                    </ul>
+                </nav>
+                <p>© Copyright Felipe Carvalho . All Rights Reserved</p>
+                <p>Desenvolvido por <span id="text-yellow2">Felipe Carvalho</span></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

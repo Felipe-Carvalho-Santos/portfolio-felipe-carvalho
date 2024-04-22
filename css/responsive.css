@@ -1,0 +1,416 @@
+@media(max-width: 1280px) {
+
+    /* Header */
+    .logo-header {
+        margin-right: 240px
+    }
+
+    #burguer {
+        margin-left: 250px;
+        margin-top: -77px;
+    }
+
+    .menu-header {
+        margin-left: 250px;
+        margin-top: 20px;
+        width: 20%;
+    }
+
+    /* Main */
+
+    .main-container {
+        gap: 0;
+    }
+
+    .icons-main {
+        width: 10%;
+    }
+
+    #icons-redes li {
+        left: 50px;
+    }
+
+    .description-main {
+        width: 60%;
+        background-size: 160px;
+        margin-top: 100px;
+    }
+
+    #main-title {
+        margin-top: 150px;
+        margin-left: -10px;
+        font-size: 60px;
+    }
+
+    #main-subtitle {
+        margin-left: -10px;
+        font-size: 28px;
+    }
+
+    #main-description {
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .box {
+        top: 100px;
+        margin: 0;
+        position: relative;
+        width: 300px;
+        height: 350px;
+
+    }
+
+    /* SECTION PROJECTS */
+
+    .title-projects h2 {
+        margin-top: 40px;
+    }
+
+    .projects {
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .box-projects {
+        margin-top: 100px;
+        height: 950px;
+    }
+
+    .project-rdy {
+        margin: 30px 2% 30px 2%;
+        height: 550px;
+
+    }
+
+    #text-project {
+        font-size: 13px;
+        margin-top: 152%;
+        margin-left: 5px;
+    }
+
+    .icons-projects {
+        margin-top: -44px;
+    }
+
+    #icons-redes-projects a ion-icon {
+        font-size: 16px;
+    }
+
+    /* Certificados */
+
+    .caixa {
+        width: 50%;
+    }
+
+    /* Btn Whatsapp */
+
+    .btn-whatsapp {
+        bottom: 20px;
+        right: 20px;
+    }
+
+}
+
+@media(max-width: 450px) {
+
+    /* Header */
+    header {
+        width: 100%
+    }
+
+    .logo-header {
+        padding: 10px 0 0 330px;
+    }
+
+    #burguer {
+        margin-left: 50px;
+        margin-top: -65px;
+        font-size: 25px;
+    }
+
+    .menu-header {
+        margin-left: 50px;
+        margin-top: 23px;
+        width: 40%;
+    }
+
+    .menu-header li a {
+        font-size: 15px;
+    }
+
+    /* Main */
+    .main-container {
+        padding: 30px 0;
+        display: inline-block;
+    }
+
+    .icons-main {
+        width: 60%;
+        height: 350px;
+        margin-left: 100px;
+    }
+
+
+    #icons-redes li {
+        top: 450px;
+        left: 30px;
+        display: inline;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .description-main {
+        background-size: 150px;
+        background-position-x: right;
+        background-position-y: top;
+        width: 92%;
+        padding: 10px;
+        margin: -230px 0 0 15px;
+        height: 400px;
+
+    }
+
+    #main-title {
+        display: flex;
+        margin-top: 50px;
+        font-size: 54px;
+        text-align: start;
+    }
+
+    #main-description {
+        font-size: 15px;
+
+    }
+
+    .photo-main {
+        height: 500px;
+        width: 68%;
+    }
+
+    .box {
+        align-items: center;
+        margin-top: -50px;
+        right: -120px;
+        width: 200px;
+        height: 300px;
+    }
+
+    .box::after {
+        background-size: 180px;
+
+    }
+
+    /* Projetos */
+
+    .projects-container {
+        padding: 90px 0 90px 0;
+    }
+
+    .box-projects {
+        width: 100%;
+        height: 1700px;
+    }
+
+    .title-projects h2 {
+        font-size: 28px;
+        margin-top: -50px;
+    }
+
+    .title-projects h2::after {
+        height: 5px;
+        margin-left: 46%;
+        width: 25%;
+        margin-top: 2%;
+    }
+
+    .projects {
+        width: 100%;
+        margin: 0;
+        height: 1700px;
+        display: block;
+    }
+
+    .project-rdy {
+        display: block;
+        flex-direction: none;
+        flex-wrap: none;
+        width: 320px;
+        height: 460px;
+        margin: 30px 0 30px 14%;
+        margin-bottom: 70px;
+
+    }
+
+    .project-rdy:hover {
+        transform: none;
+    }
+
+    #text-project {
+        width: 90%;
+        height: 31.5%;
+        margin-left: 17px;
+        margin-top: 99%;
+        font-size: 12px;
+    }
+
+    .icons-projects {
+        margin-top: -44px;
+        margin-left: 4px;
+    }
+
+    /* Sobre Mim */
+
+    .sobre-container {
+        padding: 50px 0 120px 0;
+    }
+
+    .box-sobre {
+        width: 95%;
+    }
+
+    .title-sobre h2 {
+        font-size: 28px;
+    }
+
+    .title-sobre h2::after {
+        height: 5px;
+        margin-left: 44%;
+        width: 23%;
+        margin-top: 2%;
+    }
+
+    .title-sobre p {
+        font-size: 15px;
+    }
+
+    /* Certificados */
+
+    .certificados-container {
+        padding: 10px 0 120px 0;
+    }
+
+    .box-certificados {
+        width: 95%;
+        height: 550px;
+    }
+
+    .title-certificados h2 {
+        font-size: 25px;
+    }
+
+    .title-certificados h2::after {
+        height: 5px;
+        margin-left: 44%;
+        width: 23%;
+        margin-top: 2%;
+    }
+
+    .caixa {
+        width: 80%;
+    }
+
+    .caixa div {
+        min-width: 17rem;
+        max-height: 21rem;
+    }
+
+    #cert1,
+    #cert2,
+    #cert3 {
+        font-size: 15px;
+    }
+
+    /* Contato */
+
+    .contato-container {
+        padding: 0;
+        gap: 0px;
+    }
+
+    #title-contato {
+        font-size: 25px;
+        padding: 200px 0 30px 0;
+    }
+
+    #title-contato::after {
+        height: 5px;
+        margin-left: 44%;
+        width: 17%;
+        margin-top: 2%;
+    }
+
+    .local-contact {
+        width: 33%;
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    .local-contact h2 {
+        font-size: 20px;
+    }
+
+    .local-contact p {
+        font-size: 12px;
+    }
+
+
+    .email-contact {
+        width: 33%;
+        padding: 20px 0;
+    }
+
+    .email-contact h2 {
+        font-size: 20px;
+    }
+
+    .email-contact p {
+        font-size: 12px;
+    }
+
+    .phone-contact {
+        width: 33%;
+        padding: 20px 0;
+    }
+
+    .phone-contact h2 {
+        font-size: 20px;
+    }
+
+    .phone-contact p {
+        font-size: 12px;
+    }
+
+    /* BTN WHATSAPP */
+
+    .btn-whatsapp {
+        bottom: 10px;
+        right: 7px;
+        font-size: 35px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn-whatsapp a i {
+        font-size: 28px;
+    }
+
+    /* Footer */
+
+    .footer-info {
+        width: 95%;
+    }
+
+    .footer-info h1 {
+        font-size: 25px;
+    }
+
+    .footer-info p {
+        font-size: 15px;
+    }
+
+    #text-yellow2 {
+        font-size: 15px;
+    }
+}
